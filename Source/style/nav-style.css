@@ -19,5 +19,42 @@
     min-width: 100%;
 }
 
+#blog-bg {
+    position: relative;
+    min-width: 100%;
+    height: 100vh;
+    max-width: 500px;
+    background: rgba( 0 , 0, 0 ,0.5);
+}
+
+#blog-bg #bg-img {
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url("https://2.bp.blogspot.com/-H3JXh2cIKHs/WuwLvnz19cI/AAAAAAAAMXs/-qySdr5zEcc-kcLC4arf5m5H3F_trN7sgCK4BGAYYCw/s1600/kristopher-roller-110203-unsplash-m.jpg") no-repeat center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+#blog-white-color > a {
+    color: white;
+}
+
+#blog-white-color > button  {
+    border: 0px solid transparent;
+    
+}
+#blog-white-color > button::after  {
+    border: 0px solid transparent;
+    
+    
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 
 
