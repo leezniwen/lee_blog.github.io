@@ -1,0 +1,23 @@
+/* .lee-nav {
+    background-color:transparent;
+    text-align: center;
+    border:1px solid black;
+    float: left;
+    margin: 0;
+
+    
+}*/
+/*.lee-nav > ul , li{
+    display: inline-block;
+}*/
+
+.div-bar {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#lee-widht-min-100 {
+    min-width: 100%;
+}
+
+
+
