@@ -49,8 +49,18 @@
 }
 #blog-white-color > button::after  {
     border: 0px solid transparent;
+
     
-    
+}
+
+ .custom-left  > li {
+    float: left;
+    color: white;
+    padding: 10px;
+}
+
+.custom-left {
+    padding-right: 40%;
 }
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -58,3 +68,85 @@
 
 
 
+li > .act-a{
+  position:relative;
+  text-decoration: none;
+  color:white;
+}
+li > .act-a:hover {
+    color:white;
+}
+li > .act-a::after{
+  content:"";
+  display:block;
+  width: 0;
+  height: 4px;
+  background-color:white;
+  position:absolute;
+  right: 0;
+  transition:.4s;
+}
+li > .act-a:hover::after{
+  width: 100%;
+  left: 0;
+}
+
+
+#choose-menu {
+    background-color: #343a40 !important;
+    border-radius: 10px 10px;
+    width: 60%;
+    margin-left: 1%;
+}
+
+#choose-menu > ul {
+    padding: 0 10px 10px 10px;
+    font-size: 20px;
+}
+
+#emoji-my > #main {
+    margin-top: 10%;
+    border: 3px solid #fff;
+    width: 100%;
+   
+    height:auto ;
+    max-height: 500px;
+    text-align: center;
+}
+#emoji-my > #main > span {
+    color: #fff;
+    font-size: large;
+    white-space:nowrap;
+}
+
+
+/*
+淡出效果
+*/
+
+@keyframes fadein{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    }
+     
+    @-webkit-keyframes fadein{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    }
+     
+    @-moz-keyframes fadein{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    }
+     
+    @-o-keyframes fadein{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    }
+
+#emoji-my {
+    animation:fadein 2s linear 1;
+-webkit-animation:fadein 2s linear 1;
+-moz-animation:fadein 2s linear 1;
+-o-animation:fadein 2s linear 1;
+}
