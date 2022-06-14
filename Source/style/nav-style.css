@@ -50,7 +50,7 @@
 #blog-white-color > button::after  {
     border: 0px solid transparent;
 
-    
+
 }
 
  .custom-left  > li {
@@ -97,6 +97,7 @@ li > .act-a:hover::after{
     border-radius: 10px 10px;
     width: 60%;
     margin-left: 1%;
+    margin-top: 3%;
 }
 
 #choose-menu > ul {
