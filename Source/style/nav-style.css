@@ -119,6 +119,63 @@ li > .act-a:hover::after{
     white-space:nowrap;
 }
 
+#svg-div{
+    color: #fff;
+    padding-top:20%;
+    width: 50px;
+    height: 50px;
+    
+    /*  動畫  */
+    animation:uptodown 3s infinite; /*IE*/
+    -moz-animation:uptodown 3s infinite; /*FireFox*/
+    -webkit-animation:uptodown 3s infinite; /*Chrome, Safari*/
+    
+}
+@keyframes uptodown {
+    from{
+        padding-top: 18%;
+        opacity: 0;
+    }
+    to {
+        padding-top: 25%;
+        opacity: 1;
+    }
+
+}
+
+@-webkit-keyframes uptodown{
+    from{
+        padding-top: 18%;
+        opacity: 0;
+    }
+    to {
+        padding-top: 25%;
+        opacity: 1;
+    }
+
+}
+
+@-moz-keyframes uptodown{
+    from{
+        padding-top: 18%;
+        opacity: 0;
+    }
+    to {
+        padding-top: 25%;
+        opacity: 1;
+    }
+}
+@-o-keyframes uptodown{
+    from{
+        padding-top: 18%;
+        opacity: 0;
+    }
+    to {
+        padding-top: 25%;
+        opacity: 1;
+    }
+
+}
 
 /*
 淡出效果
@@ -140,10 +197,45 @@ li > .act-a:hover::after{
     }
      
     @-o-keyframes fadein{
-    0%{opacity: 0;}
-    100%{opacity: 1;}
+    0%{opacity: 1;}
+    100%{opacity: 0;}
     }
 
+    @keyframes fadeout{
+        from{
+            opacity: 1;
+        }
+        to{
+            opacity: 0;
+        }
+    }
+         
+        @-webkit-keyframes fadeout{
+            from{
+                opacity: 1;
+            }
+            to{
+                opacity: 0;
+            }                
+        }
+         
+        @-moz-keyframes fadeout{
+            from{
+                opacity: 1;
+            }
+            to{
+                opacity: 0;
+            }                
+        }
+         
+        @-o-keyframes fadeout{
+            from{
+                opacity: 1;
+            }
+            to{
+                opacity: 0;
+            }
+        }
 #emoji-my {
     animation:fadein 2s linear 1;
 -webkit-animation:fadein 2s linear 1;
