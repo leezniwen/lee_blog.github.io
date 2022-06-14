@@ -133,11 +133,11 @@ li > .act-a:hover::after{
 }
 @keyframes uptodown {
     from{
-        padding-top: 18%;
+        padding-top: 15%;
         opacity: 0;
     }
     to {
-        padding-top: 23%;
+        padding-top: 20%;
         opacity: 1;
     }
 
@@ -145,11 +145,11 @@ li > .act-a:hover::after{
 
 @-webkit-keyframes uptodown{
     from{
-        padding-top: 18%;
+        padding-top: 15%;
         opacity: 0;
     }
     to {
-        padding-top: 23%;
+        padding-top: 20%;
         opacity: 1;
     }
 
@@ -157,21 +157,21 @@ li > .act-a:hover::after{
 
 @-moz-keyframes uptodown{
     from{
-        padding-top: 18%;
+        padding-top: 15%;
         opacity: 0;
     }
     to {
-        padding-top: 23%;
+        padding-top: 20%;
         opacity: 1;
     }
 }
 @-o-keyframes uptodown{
     from{
-        padding-top: 18%;
+        padding-top: 15%;
         opacity: 0;
     }
     to {
-        padding-top: 23%;
+        padding-top: 20%;
         opacity: 1;
     }
 
