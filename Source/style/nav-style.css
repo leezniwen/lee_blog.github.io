@@ -131,6 +131,35 @@ li > .act-a:hover::after{
     -webkit-animation:uptodown 3s infinite; /*Chrome, Safari*/
     
 }
+
+#news {
+    margin-top: 5%;
+    height: auto;
+    
+}
+
+.title-sheet1  {
+    
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    text-align: center;
+}
+#news-title {
+    color: #fff;
+    width: 200px;
+    
+}
+
+.custom-border-white {
+    height: 200px;
+    margin-top: 2%;
+    text-align: center;
+    line-height: 200px;
+    background-color: #fff;
+    border-radius: 10px 10px ;
+    box-shadow: 5px 5px rgb(213, 213, 213);
+}
+
 @keyframes uptodown {
     from{
         padding-top: 15%;
