@@ -137,7 +137,7 @@ li > .act-a:hover::after{
         opacity: 0;
     }
     to {
-        padding-top: 25%;
+        padding-top: 23%;
         opacity: 1;
     }
 
@@ -149,7 +149,7 @@ li > .act-a:hover::after{
         opacity: 0;
     }
     to {
-        padding-top: 25%;
+        padding-top: 23%;
         opacity: 1;
     }
 
@@ -161,7 +161,7 @@ li > .act-a:hover::after{
         opacity: 0;
     }
     to {
-        padding-top: 25%;
+        padding-top: 23%;
         opacity: 1;
     }
 }
@@ -171,10 +171,58 @@ li > .act-a:hover::after{
         opacity: 0;
     }
     to {
-        padding-top: 25%;
+        padding-top: 23%;
         opacity: 1;
     }
 
+}
+
+@media only screen and (max-width:500px) {
+    @keyframes uptodown {
+        from{
+            padding-top: 30%;
+            opacity: 0;
+        }
+        to {
+            padding-top: 40%;
+            opacity: 1;
+        }
+    
+    }
+    
+    @-webkit-keyframes uptodown{
+        from{
+            padding-top: 30%;
+            opacity: 0;
+        }
+        to {
+            padding-top: 40%;
+            opacity: 1;
+        }
+    
+    }
+    
+    @-moz-keyframes uptodown{
+        from{
+            padding-top: 30%;
+            opacity: 0;
+        }
+        to {
+            padding-top: 40%;
+            opacity: 1;
+        }
+    }
+    @-o-keyframes uptodown{
+        from{
+            padding-top: 30%;
+            opacity: 0;
+        }
+        to {
+            padding-top: 40%;
+            opacity: 1;
+        }
+    
+    }
 }
 
 /*
