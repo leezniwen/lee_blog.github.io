@@ -155,7 +155,7 @@ li > .act-a:hover::after{
     margin-top: 2%;
     text-align: center;
     line-height: 200px;
-    background-color: rgb(159, 157, 157);
+    background-color: rgb(199, 199, 199);
     border-radius: 10px 10px ;
     box-shadow: 5px 5px rgb(213, 213, 213);
 }
