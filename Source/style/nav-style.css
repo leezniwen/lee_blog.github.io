@@ -12,8 +12,7 @@
 }*/
 
 .div-bar {
-    margin-left: 5%;
-    margin-right: 5%;
+
 }
 #lee-widht-min-100 {
     min-width: 100%;
@@ -23,7 +22,7 @@
     position: relative;
     min-width: 100%;
     height: 100vh;
-    max-width: 500px;
+    
     background: rgba( 0 , 0, 0 ,0.5);
 }
 
@@ -96,7 +95,7 @@ li > .act-a:hover::after{
     background-color: #343a40 !important;
     border-radius: 10px 10px;
     width: 60%;
-    margin-left: 1%;
+    
     margin-top: 3%;
 }
 
