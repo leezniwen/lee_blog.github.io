@@ -1,0 +1,17 @@
+/* 寫 最底下的．．．．*/
+
+#footer-bottom {
+    background-color: #404141;
+    height: 100px;
+    margin-top: 1%;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+}
+#footer-bottom > a{
+    color:#fff;
+}
+
+#footer-bottom > a:hover{
+    color:#DAD7D0;
+}
