@@ -1,0 +1,20 @@
+.proj_main {
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    padding: 2%;
+}
+
+.proj_main > .item-1 {
+    margin:2%;
+    width: 350px;
+    height: 30%;
+    border: 3px solid black;
+    padding-left: 5px;
+    border-radius: 5px 5px;
+}
+.proj_main > .item-1:hover{
+    transition: 0.5s all ;
+    box-shadow: 6px 6px rgb(175, 175, 175);
+
+}
