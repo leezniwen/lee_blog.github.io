@@ -62,7 +62,7 @@ function AddCount(sa){
     //console.log(timerSet.value);
     var timerCount = setInterval(()=>{
 
-        if(countlabel.innerText == 0 ){
+        if(s == 0 ){
             countlabel.style['display'] = "none";
             secLabel.style['display'] = "none";
             clearInterval(timerCount);
@@ -75,8 +75,8 @@ function AddCount(sa){
             
             return ;
         }
-        countlabel.innerText = countlabel.innerText -1 ;
         s-=1;
+        countlabel.innerText = s;
         percent = (s/timerInit.value)*360;
         progressbar.style.background = "conic-gradient(#20c997 "+percent+"deg, #ffffff 0deg )";
 
