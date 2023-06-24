@@ -70,9 +70,9 @@ function AddCount(sa){
             var alert_content = new Audio(mp3_url);
             alert_content.play();
             */
-            alert('Time Out');
+            //alert('Time Out');
             //alert_content.pause();
-            
+            const notification = new Notification("TimeOut");
             return ;
         }
         s-=1;
