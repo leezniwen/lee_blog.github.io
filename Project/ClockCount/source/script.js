@@ -46,6 +46,8 @@ function setMode(){
 function AddCount(sa){
     var timerInit = document.getElementById(sa);
     var create_timer = document.getElementById('add_timer');
+    var Add_btn = document.getElementById('add_btn');
+    Add_btn.disabled="true";
     //var mp3_url = '../musicSource/over_the_testing.mp3';
     var percent = 360;
     var s = timerInit.value;
@@ -56,10 +58,15 @@ function AddCount(sa){
     //create_timer.innerHTML+="<div style='border: 1px solid gray; border-radius: 10px 10px; width: 100px; height: 100px; margin-left: 3%; margin-top: 3%;'><span id='sp"+now_sp+"'></span></div>";
     var countlabel = document.getElementById('sp1');
     countlabel.style['display'] = "flex";
+    console.log(countlabel.innerText);
+    if(countlabel.innerText!="" && countlabel.innerText>"0"){
+        return ;
+    }
     countlabel.innerText = timerInit.value;
     progressbar.style.background = "conic-gradient(#20c997 "+percent+"deg, #ffffff 0deg )";
-
+    
     //console.log(timerSet.value);
+    
     var timerCount = setInterval(()=>{
 
         if(s == 0 ){
@@ -70,6 +77,7 @@ function AddCount(sa){
             var alert_content = new Audio(mp3_url);
             alert_content.play();
             */
+            Add_btn.disabled="";
             alert('Time Out');
             //alert_content.pause();
             return ;
